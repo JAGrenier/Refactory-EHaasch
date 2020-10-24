@@ -25,6 +25,11 @@
     text-align: center;
 }
 
+.grid-container img{
+    height: 200px;
+    width: auto;
+}
+
 @media all and (max-width: 800px) {
     .navigation {
       justify-content: space-around;
