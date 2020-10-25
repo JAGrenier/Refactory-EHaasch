@@ -7,26 +7,30 @@
     justify-content: center;
     list-style: none;
     text-decoration: none;
+    margin-top: 100px;
 }
 
 .navigation a {
     text-decoration: none;
-    display: block;
-    padding: 1rem;
+    margin: 25px;
+    font-size: 1.5ch;
+    color: black;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
 }
 .grid-item {
-    padding: 20px;
-    font-size: 30px;
+    margin: 4rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .grid-container img{
-    height: 200px;
+    height: 215px;
     width: auto;
 }
 
